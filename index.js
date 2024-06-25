@@ -75,9 +75,9 @@ function checkIfSomeoneWon(){
     if(isGameWon) {
         if(currentPlayer === 1){
             score.player1++
-            return
-        } 
-        score.player2++
+        } else  {
+            score.player2++
+        }
     }
    
     // On vérifie si la partie est finie
